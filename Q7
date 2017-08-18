@@ -1,0 +1,6 @@
+var subtotal, comissao, total;
+
+subtotal = parseFloat (prompt("Entre com o subtotal do valor da sua refeição:"))
+comissao = (0,1 * subtotal);
+total = subtotal + comissao;
+alert ("Comissão:" + comissao + "\n" + "Total:" + total);
