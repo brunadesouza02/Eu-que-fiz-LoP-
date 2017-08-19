@@ -1,0 +1,7 @@
+Q1: alert("É preciso praticar para aprender a programar!");
+Q3: var horas, dias;
+
+horas = parseInt(prompt("Digite o numero de horas:");
+dias = (horas/24);
+
+alert("Qunatidade em dias: " + dias);
