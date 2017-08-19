@@ -37,3 +37,11 @@ comissao = (0,1*subtotal);
 total = subtotal+comissao;
 
 alert("Subtotal: " + subtotal + "\n" + "Comissão: " + comissao + "\n" + "Total: " + total);
+Q8: var subtotal, comissao1, comissao2, total;
+
+subtotal = parseFloat(prompt("Entre com o subtotal do valor da sua refeição:"));
+comissao1 = parseFloat(prompt("Digite o valor da comissão do garçon:"));
+comissao2 = ((comissao1/100)*subtotal);
+total = subtotal+comissao2;
+
+alert("Subtotal: " + subtotal + "\n" + "Comissão: " + comissao2 + "\n" + "Total: " + total);
