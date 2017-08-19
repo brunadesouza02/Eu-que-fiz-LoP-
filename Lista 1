@@ -69,4 +69,4 @@ horas = parseInt(prompt(Entre com o número de horas:"));
 dias = horas/24;
 horasR = horas%24;
 
-alert("Valor em dias e o restante em horas: " + dias + "dias e" + horasR + horas); 
+alert("Valor em dias e o restante em horas: " + dias + " " + "dias e" + horasR + " " + horas); 
