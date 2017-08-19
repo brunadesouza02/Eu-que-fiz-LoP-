@@ -30,3 +30,10 @@ area = (PI*(raio*raio));
 volume = (4*PI*(raio*raio*raio))/3
 
 alert("Perimetro: " + perimetro + "\n" + "Area: " + area + "\n" + "Volume: " + volume);
+Q7: var subtotal, comissao, total;
+
+subtotal = parseFloat(prompt("Entre com o subtotal do valor da sua refeição:"));
+comissao = (0,1*subtotal);
+total = subtotal+comissao;
+
+alert("Subtotal: " + subtotal + "\n" + "Comissão: " + comissao + "\n" + "Total: " + total);
