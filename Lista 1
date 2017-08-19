@@ -63,3 +63,10 @@ a2 = b1
 b2 = a1
 
 alert("Valores iniciais de a e b respectivamente: " + a1 + b1 + "\n" + "Valores finais de a e b respectivamente: " + a2 + b2)
+Q11: var horas, dias, horasR;
+
+horas = parseInt(prompt(Entre com o número de horas:"));
+dias = horas/24;
+horasR = horas%24;
+
+alert("Valor em dias e o restante em horas: " + dias + "dias e" + horasR + horas); 
