@@ -14,3 +14,10 @@ jardas = (metros*1,09);
 milhas = (metros*0,00062);
 
 alert("Valor em metros: " + metros + "\n" + "Valor em polegadas: " + polegadas + "\n" "Valor em pés: " + pés + "\n" + "Valor em jardas: " + jardas + "\n" + "Valor em milhas: " + milhas);
+Q5: var altura, massa, IMC;
+
+altura = parseFloat(prompt("Entre com sua altura:"));
+massa = parseFloat(prompt("Digite sua massa em Kg:"));
+IMC = massa/(altura*altura)
+
+alert("Seu IMC é: " + IMC);
