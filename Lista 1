@@ -70,3 +70,14 @@ dias = horas/24;
 horasR = horas%24;
 
 alert("Valor em dias e o restante em horas: " + dias + " " + "dias e" + horasR + " " + horas); 
+Q12: FALTA FAZER
+Q13: var pFabrica, lucroDist, I, percentualI, percentualDist;
+
+pFabrica = parseFloat(prompt("Entre com o preço de fabrica do seu veículo:"));
+percentualDist = parseFloat(prompt("Digite o percentual do lucro do distribuidor:"));
+percentualI = parseFloat(prompt("Digite o percentual de impostos:"));
+lucroDist = (percentualDist*pFabrica)/100;
+I = (percentualI*pFabrica)/100;
+valorTotal = (pFabrica + lucroDist + I);
+
+alert("Lucro do distribuidor: " + lucroDist + "\n" + "Impostos: " + I + "\n" + "Preço final do veículo: " + valorTotal);
