@@ -45,3 +45,13 @@ comissao2 = ((comissao1/100)*subtotal);
 total = subtotal+comissao2;
 
 alert("Subtotal: " + subtotal + "\n" + "Comissão: " + comissao2 + "\n" + "Total: " + total);
+Q9: var raio, altura, geretriz, volume, area;
+
+PI = 3.14159265
+raio = parseFloat(prompt("Digite o raio do tronco:"));
+altura = parseFloat(prompt("Digite a altura do tronco:"));
+geretriz = Mathpow((Mathpow(altura,2) + Mathpow(raio,2)),2)
+volume = (PI*(Mathpow(raio,2))*altura)/3
+area = (PI*raio*geretriz) + (PI*(Mathpow(raio,2))
+
+alert("O volume é: " + volume + "\n" + "A área é: " + area);
